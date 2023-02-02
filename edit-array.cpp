@@ -9,7 +9,7 @@
 using namespace std;
 
 int main(){
-    const int SIZE= 10;
+    const int SIZE= 10; //creates a const that will store the size of the array
     int myData[SIZE]; //creates an array of 10 ints 
     for (int i= 0; i < SIZE; i++){ //for every int in the array
         myData[i]= 1; // each cell stores the value 1 as a placeholder
