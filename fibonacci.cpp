@@ -6,7 +6,6 @@
 //to compute and print all Fibonacci numbers from F(0) to F(59).
 
 #include <iostream>
-using namespace std;
 
 int main(){
     int fib[60]; //creates an array that will store all fibonacci numbers from 0-59
@@ -15,7 +14,7 @@ int main(){
     fib[1]= 1;
     for (int i = 0; i < 60; i++){
         fib[i] = fib[i-1] + fib[i-2]; //compute the rest of the fibonacci numbers iteratively
-        cout << fib[i] << endl; //output the fibonacci numbers to the terminal
+        std::cout << fib[i] << std::endl; //output the fibonacci numbers to the terminal
     }
     return 0;
 }
